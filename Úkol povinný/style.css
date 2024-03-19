@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+:root {
+  --menu-color: #33292a;
+}
+.menu-tabs {
+  color: white;
+  padding: 20px;
+  background-color: var(--menu-color);
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.menu-tabs:link {
+  color: #efa69d;
+}
+.menu-tabs:hover {
+  background-color: #251e1f;
+  color: #e9877b;
+}
+.menu-wrapper {
+  margin: 0 auto;
+  background-color: var(--menu-color);
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+.menu {
+  background-color: var(--menu-color);
+}
+
+.menu-phone {
+  display: none;
+  background-color: var(--menu-color);
+}
+
+.menu-icon {
+  height: 5rem;
+  padding: 10px;
+  margin: 0 0 0 90%;
+  color: white;
+}
+
+.main-image .tent {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.main-image {
+  width: 100%;
+  position: relative;
+}
+.main-image-text-wrapper {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+
+.main-image-text {
+  color: white;
+  font-weight: 600;
+  text-align: right;
+  font-size: 7rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section-about-us {
+  background-color: #fff;
+}
+.about-us-wrapper {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  gap: 50px;
+  width: 60%;
+  margin: 0 auto;
+}
+.about-us-text {
+  font-size: 16px;
+  line-height: 20px;
+  word-spacing: 5px;
+  /* font-weight: 500; */
+}
+.about-us-text-wrapper {
+  width: 50%;
+  margin: auto 0;
+}
+.about-us-img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 5px;
+  min-height: 300px;
+}
+h2 {
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.what-we-do {
+  background-color: #33292a;
+  color: white;
+}
+.what-we-do-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.what-we-do-text {
+  font-size: 16px;
+  line-height: 20px;
+  word-spacing: 5px;
+  /* font-weight: 500; */
+  padding-bottom: 100px;
+  text-align: center;
+}
+.icons-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+}
+.icons-text {
+ text-align: center;
+}
+
+.icons-what-we-do {
+  width: 100px;
+}
+
+.icon-names {
+  width: 100px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.galery {
+  background-color: #fff;
+}
+.galery-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 100px 0 100px 0;
+}
+.galery-item {
+  width: calc(100% / 3 - 20px);
+  display: inline-block;
+  object-fit: cover;
+}
+#galery-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+.where-want-go {
+  background-color: #644b4f;
+}
+.where-want-go-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 30px;
+  color: white;
+  justify-content: space-between;
+}
+.where-want-go-h2 {
+  width: 20%;
+}
+.where-want-go-text-wrapper {
+  width: 60%;
+}
+.where-want-go-text {
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  word-spacing: 5px;
+}
+.contact-us {
+  margin-top: 30px;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+}
+.reviews {
+  background-color: #f2f2f2;
+}
+.reviews-wrapper {
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
+}
+.reviews-examples-wrapper {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 30px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.review-example {
+  width: 40%;
+}
+.review-img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+.review-name {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.pictures-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.picture {
+  width: 50%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+}
+.contact {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.contact:link {
+  color: #efa69d;
+}
+.contact:hover {
+  color: #e9877b;
+}
+
+@media only screen and (max-width: 1555px) {
+    .menu-tabs {
+      font-size: 1.5rem;
+    }
+    .menu-wrapper {
+      width: 100%;
+    }
+  }
+   
+@media only screen and (max-width: 1270px) {
+    .menu-tabs {
+      font-size: 1rem;
+    }
+    .menu-wrapper {
+      width: 100%;
+    }
+    .menu-tabs {
+      display: none;
+    }
+    .menu-phone {
+      display: block
+    }
+    .main-image-text {
+      font-size: 5rem;
+      width: 90%;
+    }
+    .main-image-text-wrapper {
+      bottom: 5%;
+    }
+    .about-us-wrapper {
+      width: 80%;
+    }
+  .what-we-do-img-wrapper {
+    flex-direction: column;
+  }
+  .galery-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+  .galery-item {
+    width: 100%;
+  }
+  #galery-text {
+    padding: 20px;
+  }
+  .where-want-go-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+  .where-want-go-h2 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: left;
+  }
+  .where-want-go-text-wrapper {
+  	width: 100%;
+  }
+  .reviews-wrapper {
+    width: 90%;
+  }
+  .reviews-examples-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review-example {
+    width: 100%;
+  }
+  .reviews-examples-wrapper {
+    width: 90%;
+  }
+  .pictures-wrapper {
+    flex-direction: column;
+  }
+  .picture {
+    width: 100%;
+    height: 100%;
+  }
+  }
+
+
+@media screen and (max-width: 910px) {
+    .menu-icon {
+    margin: 0 0 0 80%;
+    }
+    .main-image-text {
+      font-size: 3rem;
+      width: 80%;
+    }
+    .about-us-wrapper {
+      flex-direction: column;
+      width: 80%;
+    }
+    .about-us-text-wrapper {
+      width: 100%;
+    }
+    .about-us-img {
+      width: 100%;
+    }
+  .what-we-do-wrapper {
+    width: 80%;
+  }
+  .icons-text-wrapper {
+    flex-direction: column;
+  }
+  .icon-names {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+ 
+  }
+
+
+@media (max-width: 800px) {
+    html, body {
+    overflow-x: hidden;
+    }
+  }
